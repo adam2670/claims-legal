@@ -16,6 +16,14 @@
   strong { color: #14263F; }
   footer { margin-top: 48px; color: #5A6B80; font-size: 13px; border-top: 1px solid #E7E0D4; padding-top: 14px; }
   a { color: #C77F1B; }
+  :root { color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0B1B2B; color: #DCE4EC; }
+    h1, h2, strong { color: #FFFFFF; }
+    nav a { color: #93A4B5; } nav a:hover { color: #FFFFFF; }
+    a { color: #FFAA1D; }
+    footer { color: #93A4B5; border-top-color: #22364A; }
+  }
 </style>
 </head>
 <body>
